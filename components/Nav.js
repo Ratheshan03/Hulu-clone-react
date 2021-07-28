@@ -1,4 +1,3 @@
-import React from "react";
 import requests from "../utils/requests";
 import { useRouter } from "next/router";
 

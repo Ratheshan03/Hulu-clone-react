@@ -18,6 +18,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         layout="responsive"
         height={1080}
         width={1920}
+        alt="posters"
       />
       <div className="p-2">
         <p className="truncate max-w-md">{result.overview}</p>
@@ -34,4 +35,5 @@ const Thumbnail = forwardRef(({ result }, ref) => {
   );
 });
 
+Thumbnail.displayName = "Thumbnail";
 export default Thumbnail;
