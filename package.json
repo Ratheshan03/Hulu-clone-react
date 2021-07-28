@@ -1,5 +1,5 @@
 {
-  "name": "hulu-clone",
+  "name": "hulu",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -17,7 +17,6 @@
     "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
     "autoprefixer": "^10.3.1",
     "eslint": "7.31.0",
     "eslint-config-next": "11.0.1",
